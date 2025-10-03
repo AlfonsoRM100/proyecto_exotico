@@ -1,7 +1,7 @@
 from auxiliares.info_app import nombre_aplicacion
 from auxiliares.version import numero_version
 from iu.menu_usuario import  mostrar_menu_usuario
-
+from iu.registro import registrar_usuario
 def menu_principal():
     while True:
 
@@ -16,7 +16,7 @@ def menu_principal():
         
         opcion = input('Seleccione una opcion: ')
         if opcion == '1':
-            from iu.registro import registrar_usuario
+
             registrar_usuario()
         elif opcion == '2':
             from iu.login import iniciar_sesion
