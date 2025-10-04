@@ -4,3 +4,5 @@ def iniciar_sesion():
     password = input("Contraseña: ")
 
     print(f"\nUsuario con correo {correo} ha iniciado sesión con éxito.\n")
+    return correo
+
